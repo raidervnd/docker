@@ -3,6 +3,4 @@ WORKDIR /app
 COPY 2048-game .
 
 CMD [ "node", "server.js" ]
-EXPOSE 3000
-EXPOSE 3001
 
